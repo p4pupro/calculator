@@ -12,7 +12,7 @@ Given('Dada una calculadora que divide', () => {
 
 
 When('Cuando se ingresan {int} y {int} se dividen',  (num1: number, num2: number) => {
-    divide = calculadora.multiplicar(num1, num2);    
+    divide = calculadora.dividir(num1, num2);    
 });
 
 

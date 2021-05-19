@@ -10,5 +10,5 @@ Scenario Outline: Se ingresan dos números enteros y se devuelve el resultado de
     Examples:
         | num1 | num2 | resultado |
         |   3  |   7  |      -4   |
-        |  -4  |  -6  |     -10   |
+        |  -4  |  -6  |       2   |
         | 999  |   1  |     998   |
