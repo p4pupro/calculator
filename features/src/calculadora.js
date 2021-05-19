@@ -5,7 +5,10 @@ var Calculadora = /** @class */ (function () {
     function Calculadora() {
     }
     Calculadora.prototype.sum = function (num1, num2) {
-        return num1 + num2;
+        return (num1) + (num2);
+    };
+    Calculadora.prototype.resta = function (num1, num2) {
+        return (num1) - (num2);
     };
     return Calculadora;
 }());

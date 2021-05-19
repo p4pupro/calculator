@@ -6,16 +6,16 @@ let calculadora: Calculadora;
 let sum: number;
 
 
-Given('Dada una calculadora', () => {
+Given('Dada una calculadora que suma', () => {
     calculadora = new Calculadora();
 });
 
 
-When('Cuando se ingresan {int} y {int}',  (num1: number, num2: number) => {
+When('Cuando se ingresan {int} y {int} se suma',  (num1: number, num2: number) => {
     sum = calculadora.sum(num1, num2);    
 });
 
 
-Then('El resultado debe ser {int}',  (resultado: number)  => {
+Then('El resultado de la suma debe ser {int}',  (resultado: number)  => {
     expect(sum).to.be.equal(resultado);
 });
