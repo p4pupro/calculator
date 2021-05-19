@@ -12,7 +12,7 @@ Given('Dada una calculadora que suma', () => {
 
 
 When('Cuando se ingresan {int} y {int} se suma',  (num1: number, num2: number) => {
-    sum = calculadora.sum(num1, num2);    
+    sum = calculadora.sumar(num1, num2);    
 });
 
 

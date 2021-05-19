@@ -12,7 +12,7 @@ Given('Dada una calculadora que resta', () => {
 
 
 When('Cuando se ingresan {int} y {int} se resta',  (num1: number, num2: number) => {
-    resta = calculadora.resta(num1, num2);    
+    resta = calculadora.restar(num1, num2);    
 });
 
 

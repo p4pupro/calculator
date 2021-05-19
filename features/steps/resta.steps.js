@@ -9,7 +9,7 @@ cucumber_1.Given('Dada una calculadora que resta', function () {
     calculadora = new calculadora_1.Calculadora();
 });
 cucumber_1.When('Cuando se ingresan {int} y {int} se resta', function (num1, num2) {
-    resta = calculadora.resta(num1, num2);
+    resta = calculadora.restar(num1, num2);
 });
 cucumber_1.Then('El resultado de la resta debe ser {int}', function (resultado) {
     chai_1.expect(resta).to.be.equal(resultado);

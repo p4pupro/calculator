@@ -4,11 +4,14 @@ exports.Calculadora = void 0;
 var Calculadora = /** @class */ (function () {
     function Calculadora() {
     }
-    Calculadora.prototype.sum = function (num1, num2) {
+    Calculadora.prototype.sumar = function (num1, num2) {
         return (num1) + (num2);
     };
-    Calculadora.prototype.resta = function (num1, num2) {
+    Calculadora.prototype.restar = function (num1, num2) {
         return (num1) - (num2);
+    };
+    Calculadora.prototype.multiplicar = function (num1, num2) {
+        return (num1) * (num2);
     };
     return Calculadora;
 }());

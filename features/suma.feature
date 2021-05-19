@@ -1,4 +1,4 @@
-Feature: Suma
+Feature: Sumar
 
     Suma de dos enteros
 

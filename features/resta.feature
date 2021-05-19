@@ -1,4 +1,4 @@
-Feature: Resta
+Feature: Restar
 
     Resta de dos enteros
 
