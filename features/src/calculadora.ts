@@ -15,4 +15,8 @@ export class Calculadora {
         return (num1) / (num2);
     }
 
+    raizCuadrada(num1: number): number {   
+      return Math.sqrt(num1);
+    }
+
 }

@@ -16,6 +16,9 @@ var Calculadora = /** @class */ (function () {
     Calculadora.prototype.dividir = function (num1, num2) {
         return (num1) / (num2);
     };
+    Calculadora.prototype.raizCuadrada = function (num1) {
+        return Math.sqrt(num1);
+    };
     return Calculadora;
 }());
 exports.Calculadora = Calculadora;
