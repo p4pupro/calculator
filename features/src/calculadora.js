@@ -13,6 +13,9 @@ var Calculadora = /** @class */ (function () {
     Calculadora.prototype.multiplicar = function (num1, num2) {
         return (num1) * (num2);
     };
+    Calculadora.prototype.dividir = function (num1, num2) {
+        return (num1) / (num2);
+    };
     return Calculadora;
 }());
 exports.Calculadora = Calculadora;

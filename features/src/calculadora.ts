@@ -11,4 +11,8 @@ export class Calculadora {
         return (num1) * (num2);
     }
 
+    dividir(num1: number, num2: number): number {
+        return (num1) / (num2);
+    }
+
 }
