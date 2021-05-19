@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.2.1",
+    "@types/chai": "^4.2.18",
+    "chai": "^4.3.4"
+  }
 }
