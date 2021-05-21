@@ -12,7 +12,7 @@ Given('Dada una calculadora que calcula la raíz cuadrada', () => {
 
 
 When('Cuando se ingresa {int} se calcula la raíz cuadrada',  (num1: number) => {
-    raizCuadrada = calculadora.raizCuadrada(num1);    
+    raizCuadrada = calculadora.sqrt(num1);    
 });
 
 

@@ -9,7 +9,7 @@ cucumber_1.Given('Dada una calculadora que calcula la raíz cuadrada', function 
     calculadora = new calculadora_1.Calculadora();
 });
 cucumber_1.When('Cuando se ingresa {int} se calcula la raíz cuadrada', function (num1) {
-    raizCuadrada = calculadora.raizCuadrada(num1);
+    raizCuadrada = calculadora.sqrt(num1);
 });
 cucumber_1.Then('El resultado de la raíz cuadrada debe ser {float}', function (resultado) {
     chai_1.expect(raizCuadrada).to.be.equal(resultado);
